@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-import { Article, BioData, Contact, LanguageTool} from '../components';
+import { Article, BioData, Contact} from '../components';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -23,8 +23,7 @@ const Home: NextPage = () => {
         <Contact mediumName='Github' link="https://github.com/ChakmaSajib" iconComponent={<FaGithub/>}/>
         <Contact mediumName='Linkedin' link="https://github.com/ChakmaSajib" iconComponent={<FaLinkedin/>}/>
 
-        <span>Language and Tools</span>
-        <LanguageTool/>
+        <span>Check my latest article posts</span>
       </main>
   
     </div>
