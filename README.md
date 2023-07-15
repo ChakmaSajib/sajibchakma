@@ -1,2 +1,2 @@
 # sajibchakma
-Personal blog with NuxtJS and JamStack
+Personal blog with Github Page
